@@ -128,6 +128,7 @@ AddOutputFilter chunkFilter
 		<Item Name="AllOff.vi" Type="VI" URL="../AllOff.vi"/>
 		<Item Name="AutonActions.ctl" Type="VI" URL="../AutonActions.ctl"/>
 		<Item Name="AutonCluster.ctl" Type="VI" URL="../AutonCluster.ctl"/>
+		<Item Name="AutonPriorityList.ctl" Type="VI" URL="../AutonPriorityList.ctl"/>
 		<Item Name="DataLogging.vi" Type="VI" URL="../../Labview-Project-Test/Git Test/DataLogging.vi"/>
 		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 		<Item Name="Debounce.vi" Type="VI" URL="../Debounce.vi"/>
@@ -777,6 +778,7 @@ AddOutputFilter chunkFilter
 			<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
 			<Item Name="CTRE_Phoenix_MotorControl_Follow.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Follow.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
+			<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
