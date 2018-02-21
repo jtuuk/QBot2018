@@ -124,34 +124,32 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Accel.vi" Type="VI" URL="../Accel.vi"/>
 		<Item Name="Action2Trigger.vi" Type="VI" URL="../Action2Trigger.vi"/>
 		<Item Name="AllOff.vi" Type="VI" URL="../AllOff.vi"/>
 		<Item Name="AutonActions.ctl" Type="VI" URL="../AutonActions.ctl"/>
-		<Item Name="AutonCluster.ctl" Type="VI" URL="../AutonCluster.ctl"/>
 		<Item Name="AutonPriorityList.ctl" Type="VI" URL="../AutonPriorityList.ctl"/>
 		<Item Name="AutonSelectionStore.vi" Type="VI" URL="../AutonSelectionStore.vi"/>
 		<Item Name="DataLogging.vi" Type="VI" URL="../../Labview-Project-Test/Git Test/DataLogging.vi"/>
 		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 		<Item Name="Debounce.vi" Type="VI" URL="../Debounce.vi"/>
-		<Item Name="Deccel.vi" Type="VI" URL="../Deccel.vi"/>
+		<Item Name="Decel.vi" Type="VI" URL="../Decel.vi"/>
 		<Item Name="Drive_4CANTank.vi" Type="VI" URL="../Drive_4CANTank.vi"/>
-		<Item Name="Drive_Open4CANMotor.vi" Type="VI" URL="../Drive_Open4CANMotor.vi"/>
+		<Item Name="Drive_Open4CANTank.vi" Type="VI" URL="../Drive_Open4CANTank.vi"/>
+		<Item Name="DriveEnc.vi" Type="VI" URL="../DriveEnc.vi"/>
 		<Item Name="DriveEncReset.vi" Type="VI" URL="../DriveEncReset.vi"/>
 		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
-		<Item Name="DriveStraightv3.vi" Type="VI" URL="../DriveStraightv3.vi"/>
 		<Item Name="Elevator.vi" Type="VI" URL="../Elevator.vi"/>
 		<Item Name="Elevator_Open.vi" Type="VI" URL="../Elevator_Open.vi"/>
 		<Item Name="ElevatorEncReset.vi" Type="VI" URL="../ElevatorEncReset.vi"/>
 		<Item Name="ElevEnc.vi" Type="VI" URL="../ElevEnc.vi"/>
 		<Item Name="ElevLimits.vi" Type="VI" URL="../ElevLimits.vi"/>
 		<Item Name="ElevShifter.vi" Type="VI" URL="../ElevShifter.vi"/>
-		<Item Name="EncoderDrive.vi" Type="VI" URL="../EncoderDrive.vi"/>
 		<Item Name="Flaps_AntiBack.vi" Type="VI" URL="../Flaps_AntiBack.vi"/>
 		<Item Name="GetMatchData.vi" Type="VI" URL="../GetMatchData.vi"/>
 		<Item Name="GetMatchNum.vi" Type="VI" URL="../GetMatchNum.vi"/>
 		<Item Name="Gripper.vi" Type="VI" URL="../Gripper.vi"/>
 		<Item Name="GyroActions.vi" Type="VI" URL="../GyroActions.vi"/>
-		<Item Name="ignoreTest.vi" Type="VI" URL="../ignoreTest.vi"/>
 		<Item Name="IncrementIndex.vi" Type="VI" URL="../IncrementIndex.vi"/>
 		<Item Name="Intake.vi" Type="VI" URL="../Intake.vi"/>
 		<Item Name="Intake_Open.vi" Type="VI" URL="../Intake_Open.vi"/>
@@ -160,7 +158,6 @@ AddOutputFilter chunkFilter
 		<Item Name="LockedHeading.vi" Type="VI" URL="../LockedHeading.vi"/>
 		<Item Name="MotorSpeedv2.vi" Type="VI" URL="../MotorSpeedv2.vi"/>
 		<Item Name="MotorSpeedv3.vi" Type="VI" URL="../MotorSpeedv3.vi"/>
-		<Item Name="MotorSpeedv4.vi" Type="VI" URL="../MotorSpeedv4.vi"/>
 		<Item Name="MtrPwrMapping.vi" Type="VI" URL="../MtrPwrMapping.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Shifter.vi" Type="VI" URL="../Shifter.vi"/>
@@ -826,7 +823,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">84</Property>
+				<Property Name="Bld_version.build" Type="Int">90</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
