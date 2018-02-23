@@ -130,7 +130,8 @@ AddOutputFilter chunkFilter
 		<Item Name="AutonActions.ctl" Type="VI" URL="../AutonActions.ctl"/>
 		<Item Name="AutonPriorityList.ctl" Type="VI" URL="../AutonPriorityList.ctl"/>
 		<Item Name="AutonSelectionStore.vi" Type="VI" URL="../AutonSelectionStore.vi"/>
-		<Item Name="DataLogging.vi" Type="VI" URL="../../Labview-Project-Test/Git Test/DataLogging.vi"/>
+		<Item Name="CreateTxtFile.vi" Type="VI" URL="../CreateTxtFile.vi"/>
+		<Item Name="DataLogging.vi" Type="VI" URL="../DataLogging.vi"/>
 		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 		<Item Name="Debounce.vi" Type="VI" URL="../Debounce.vi"/>
 		<Item Name="Decel.vi" Type="VI" URL="../Decel.vi"/>
@@ -767,7 +768,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
-			<Item Name="CreateTxtFile.vi" Type="VI" URL="../../Labview-Project-Test/Git Test/CreateTxtFile.vi"/>
 			<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
 			<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="../../../../../Users/Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
