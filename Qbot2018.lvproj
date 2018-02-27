@@ -150,6 +150,7 @@ AddOutputFilter chunkFilter
 		<Item Name="GetMatchData.vi" Type="VI" URL="../GetMatchData.vi"/>
 		<Item Name="GetMatchNum.vi" Type="VI" URL="../GetMatchNum.vi"/>
 		<Item Name="Gripper.vi" Type="VI" URL="../Gripper.vi"/>
+		<Item Name="Guide.vi" Type="VI" URL="../Guide.vi"/>
 		<Item Name="GyroActions.vi" Type="VI" URL="../GyroActions.vi"/>
 		<Item Name="IncrementIndex.vi" Type="VI" URL="../IncrementIndex.vi"/>
 		<Item Name="Intake.vi" Type="VI" URL="../Intake.vi"/>
@@ -822,7 +823,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">94</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
