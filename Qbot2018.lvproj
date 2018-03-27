@@ -41,6 +41,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -153,8 +154,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Gripper.vi" Type="VI" URL="../Gripper.vi"/>
 		<Item Name="Guide.vi" Type="VI" URL="../Guide.vi"/>
 		<Item Name="GyroActions.vi" Type="VI" URL="../GyroActions.vi"/>
-		<Item Name="IncrementIndex.vi" Type="VI" URL="../IncrementIndex.vi"/>
 		<Item Name="Intake.vi" Type="VI" URL="../Intake.vi"/>
+		<Item Name="IncrementIndex.vi" Type="VI" URL="../IncrementIndex.vi"/>
 		<Item Name="Intake_Open.vi" Type="VI" URL="../Intake_Open.vi"/>
 		<Item Name="KeepStraight.vi" Type="VI" URL="../KeepStraight.vi"/>
 		<Item Name="KeepStraightBoost.ctl" Type="VI" URL="../KeepStraightBoost.ctl"/>
@@ -162,6 +163,7 @@ AddOutputFilter chunkFilter
 		<Item Name="MotorSpeedv2.vi" Type="VI" URL="../MotorSpeedv2.vi"/>
 		<Item Name="MotorSpeedv3.vi" Type="VI" URL="../MotorSpeedv3.vi"/>
 		<Item Name="MtrPwrMapping.vi" Type="VI" URL="../MtrPwrMapping.vi"/>
+		<Item Name="PivotHoldSide.vi" Type="VI" URL="../PivotHoldSide.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Shifter.vi" Type="VI" URL="../Shifter.vi"/>
 		<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
@@ -169,6 +171,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 		<Item Name="Wrist.vi" Type="VI" URL="../Wrist.vi"/>
 		<Item Name="WristPositions.ctl" Type="VI" URL="../WristPositions.ctl"/>
+		<Item Name="HeadingCalc.vi" Type="VI" URL="../HeadingCalc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -824,7 +827,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">117</Property>
+				<Property Name="Bld_version.build" Type="Int">121</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
