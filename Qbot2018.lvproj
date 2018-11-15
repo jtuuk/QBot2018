@@ -172,9 +172,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Wrist.vi" Type="VI" URL="../Wrist.vi"/>
 		<Item Name="WristPositions.ctl" Type="VI" URL="../WristPositions.ctl"/>
 		<Item Name="HeadingCalc.vi" Type="VI" URL="../HeadingCalc.vi"/>
-		<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="../../../../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
-		<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="../../../../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
-		<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="../../../../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 		<Item Name="ElevShiftStatus.vi" Type="VI" URL="../ElevShiftStatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
