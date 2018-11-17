@@ -128,7 +128,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Accel.vi" Type="VI" URL="../Accel.vi"/>
 		<Item Name="Action2Trigger.vi" Type="VI" URL="../Action2Trigger.vi"/>
-		<Item Name="AllOff.vi" Type="VI" URL="../AllOff.vi"/>
 		<Item Name="AutonActions.ctl" Type="VI" URL="../AutonActions.ctl"/>
 		<Item Name="AutonPriorityList.ctl" Type="VI" URL="../AutonPriorityList.ctl"/>
 		<Item Name="AutonSelectionStore.vi" Type="VI" URL="../AutonSelectionStore.vi"/>
