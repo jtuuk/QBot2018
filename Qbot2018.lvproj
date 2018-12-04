@@ -132,48 +132,36 @@ AddOutputFilter chunkFilter
 		<Item Name="AutonPriorityList.ctl" Type="VI" URL="../AutonPriorityList.ctl"/>
 		<Item Name="AutonSelectionStore.vi" Type="VI" URL="../AutonSelectionStore.vi"/>
 		<Item Name="CreateTxtFile.vi" Type="VI" URL="../CreateTxtFile.vi"/>
+		<Item Name="DataLogging_v2.vi" Type="VI" URL="../DataLogging_v2.vi"/>
 		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
-		<Item Name="Debounce.vi" Type="VI" URL="../Debounce.vi"/>
 		<Item Name="Decel.vi" Type="VI" URL="../Decel.vi"/>
 		<Item Name="Drive_4CANTank.vi" Type="VI" URL="../Drive_4CANTank.vi"/>
 		<Item Name="Drive_Open4CANTank.vi" Type="VI" URL="../Drive_Open4CANTank.vi"/>
 		<Item Name="DriveEnc.vi" Type="VI" URL="../DriveEnc.vi"/>
-		<Item Name="DriveEncReset.vi" Type="VI" URL="../DriveEncReset.vi"/>
 		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
 		<Item Name="Elevator.vi" Type="VI" URL="../Elevator.vi"/>
 		<Item Name="Elevator_Open.vi" Type="VI" URL="../Elevator_Open.vi"/>
-		<Item Name="ElevatorEncReset.vi" Type="VI" URL="../ElevatorEncReset.vi"/>
 		<Item Name="ElevEnc.vi" Type="VI" URL="../ElevEnc.vi"/>
 		<Item Name="ElevLimits.vi" Type="VI" URL="../ElevLimits.vi"/>
 		<Item Name="ElevShifter.vi" Type="VI" URL="../ElevShifter.vi"/>
-		<Item Name="Wings_AntiBack.vi" Type="VI" URL="../Wings_AntiBack.vi"/>
-		<Item Name="GetMatchData.vi" Type="VI" URL="../GetMatchData.vi"/>
-		<Item Name="GetMatchNum.vi" Type="VI" URL="../GetMatchNum.vi"/>
+		<Item Name="ElevShiftStatus.vi" Type="VI" URL="../ElevShiftStatus.vi"/>
 		<Item Name="Gripper.vi" Type="VI" URL="../Gripper.vi"/>
 		<Item Name="Guide.vi" Type="VI" URL="../Guide.vi"/>
 		<Item Name="GyroActions.vi" Type="VI" URL="../GyroActions.vi"/>
-		<Item Name="Intake.vi" Type="VI" URL="../Intake.vi"/>
+		<Item Name="HeadingCalc.vi" Type="VI" URL="../HeadingCalc.vi"/>
 		<Item Name="IncrementIndex.vi" Type="VI" URL="../IncrementIndex.vi"/>
+		<Item Name="Intake.vi" Type="VI" URL="../Intake.vi"/>
 		<Item Name="Intake_Open.vi" Type="VI" URL="../Intake_Open.vi"/>
 		<Item Name="KeepStraight.vi" Type="VI" URL="../KeepStraight.vi"/>
 		<Item Name="KeepStraightBoost.ctl" Type="VI" URL="../KeepStraightBoost.ctl"/>
-		<Item Name="LockedHeading.vi" Type="VI" URL="../LockedHeading.vi"/>
-		<Item Name="MotorSpeedv2.vi" Type="VI" URL="../MotorSpeedv2.vi"/>
-		<Item Name="MotorSpeedv3.vi" Type="VI" URL="../MotorSpeedv3.vi"/>
-		<Item Name="MtrPwrMapping.vi" Type="VI" URL="../MtrPwrMapping.vi"/>
 		<Item Name="PivotHoldSide.vi" Type="VI" URL="../PivotHoldSide.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Shifter.vi" Type="VI" URL="../Shifter.vi"/>
-		<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 		<Item Name="TurnSmooth.vi" Type="VI" URL="../TurnSmooth.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
+		<Item Name="Wings_AntiBack.vi" Type="VI" URL="../Wings_AntiBack.vi"/>
 		<Item Name="Wrist.vi" Type="VI" URL="../Wrist.vi"/>
 		<Item Name="WristPositions.ctl" Type="VI" URL="../WristPositions.ctl"/>
-		<Item Name="HeadingCalc.vi" Type="VI" URL="../HeadingCalc.vi"/>
-		<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
-		<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
-		<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
-		<Item Name="ElevShiftStatus.vi" Type="VI" URL="../ElevShiftStatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -301,11 +289,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
-				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
 				<Item Name="NetComm_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Receive.vi"/>
 				<Item Name="NetComm_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Send.vi"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
-				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
 				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
 				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
@@ -484,14 +470,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalModuleOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleOpen.vi"/>
 				<Item Name="WPI_DigitalModuleSetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetPWM.vi"/>
 				<Item Name="WPI_DigitalOutputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputDevRef.ctl"/>
-				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
 				<Item Name="WPI_DriverStationDerivedRobotMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDerivedRobotMode.ctl"/>
 				<Item Name="WPI_DriverStationGame Specific Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGame Specific Data.vi"/>
-				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Mode.vi"/>
 				<Item Name="WPI_DriverStationGetModeAndStatusInternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetModeAndStatusInternal.vi"/>
 				<Item Name="WPI_DriverStationMatch Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationMatch Info.ctl"/>
-				<Item Name="WPI_DriverStationPositionInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationPositionInfo.ctl"/>
 				<Item Name="WPI_DriverStationReport Robot Code State.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationReport Robot Code State.vi"/>
 				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
 				<Item Name="WPI_DriverStationStart Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart Communication.vi"/>
@@ -652,11 +635,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
 				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
 				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
-				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
@@ -679,21 +660,55 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MotorControlSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyUpdate.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_SetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_SetOutput.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Follow.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Follow.vi"/>
-				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
-				<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
-				<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
-				<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
-				<Item Name="Get_Notifier_REF_Once.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/Get_Notifier_REF_Once.vi"/>
-				<Item Name="Send_Notifier.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/Send_Notifier.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="FRIC_navX_Get_Registry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_Internal/FRIC_navX_Get_Registry.vi"/>
-				<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
-				<Item Name="Z900_navX_DeviceRegisters.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_DeviceRegisters.ctl"/>
-				<Item Name="FRIC_navX_Util_DecodeProtocol_UInt16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_UInt16.vi"/>
-				<Item Name="FRIC_navX_Util_DecodeProtocol_Int16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int16.vi"/>
-				<Item Name="Get_YPRHfH.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Get_YPRHfH.vi"/>
-				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
+				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
+				<Item Name="WPI_SerialPort.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPort.ctl"/>
+				<Item Name="WPI_SerialPortRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl"/>
+				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
+				<Item Name="FPGA_UtilitiesRead LocalTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead LocalTime.vi"/>
+				<Item Name="i2clib_write.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_write.vi"/>
+				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="i2clib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
+				<Item Name="i2clib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
+				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
+				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
+				<Item Name="WPI_I2CBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CBusCache.vi"/>
+				<Item Name="WPI_I2C_ERRI2CAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRI2CAlreadyAllocated.vi"/>
+				<Item Name="WPI_I2C_ERRInvalidI2C_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRInvalidI2C_Index.vi"/>
+				<Item Name="i2clib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_open.vi"/>
+				<Item Name="WPI_I2CClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CClose.vi"/>
+				<Item Name="i2clib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_close.vi"/>
+				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
+				<Item Name="spilib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_writeread.vi"/>
+				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
+				<Item Name="spilib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_read.vi"/>
+				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
+				<Item Name="WPI_SPIMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIMode.ctl"/>
+				<Item Name="WPI_SPIBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCache.vi"/>
+				<Item Name="WPI_SPI_ERRSPIAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRSPIAlreadyAllocated.vi"/>
+				<Item Name="WPI_SPI_ERRInvalidSPI_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRInvalidSPI_Index.vi"/>
+				<Item Name="spilib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
+				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
+				<Item Name="spilib_setspeed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
+				<Item Name="spilib_setopts.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
+				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
+				<Item Name="spilib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_close.vi"/>
+				<Item Name="WPI_SerialPortWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortWrite.vi"/>
+				<Item Name="WPI_SerialPortReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortReset.vi"/>
+				<Item Name="WPI_SerialPortRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRead.vi"/>
+				<Item Name="WPI_SerialPortOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortOpen.vi"/>
+				<Item Name="WPI_SerialPortGetPortName.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetPortName.vi"/>
+				<Item Name="WPI_SerialPortQueryHubPaths.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortQueryHubPaths.vi"/>
+				<Item Name="WPI_SerialPortCoiteratedSort.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortCoiteratedSort.vi"/>
+				<Item Name="WPI_SerialPortTermination.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortTermination.vi"/>
+				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
+				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
+				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
+				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -713,10 +728,71 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DataLogging_v2.vi" Type="VI" URL="../DataLogging_v2.vi"/>
 			<Item Name="FRIC_navX_Internal_SPI_ProcessingLoop.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_SPI_ProcessingLoop.vi"/>
 			<Item Name="Hault.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Set/Hault.vi"/>
 			<Item Name="NavX Main.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/NavX Main.vi"/>
+			<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+			<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
+			<Item Name="Send_Notifier.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/Send_Notifier.vi"/>
+			<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
+			<Item Name="Get_Notifier_REF_Once.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/Get_Notifier_REF_Once.vi"/>
+			<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
+			<Item Name="FRIC_navX_Internal_I2C_ProcessingLoop.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_I2C_ProcessingLoop.vi"/>
+			<Item Name="FRIC_navX_I2C Process Loop TypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/FRIC_navX_I2C Process Loop TypeDef.ctl"/>
+			<Item Name="FRIC_navX_ProcessingLoopStatesTypeDef_I2C.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/FRIC_navX_ProcessingLoopStatesTypeDef_I2C.ctl"/>
+			<Item Name="Z900_navX_DeviceTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_DeviceTypeDef.ctl"/>
+			<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
+			<Item Name="Z900_navX_IntegrationControlRegisters.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_IntegrationControlRegisters.ctl"/>
+			<Item Name="Z900_navX_Flags_CapabilityTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_CapabilityTypeDef.ctl"/>
+			<Item Name="Z900_navX_DeviceRegisters.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_DeviceRegisters.ctl"/>
+			<Item Name="FRIC_navX_Internal_ProcessingLoop_AddToArray.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_ProcessingLoop_AddToArray.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_UInt16.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_UInt16.vi"/>
+			<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
+			<Item Name="FRIC_navX_Get_Registry.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/_Internal/FRIC_navX_Get_Registry.vi"/>
+			<Item Name="FRIC_navX_Internal_I2C_GenerateCommand.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_I2C_GenerateCommand.vi"/>
+			<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
+			<Item Name="FRIC_navX_Get_NextState_ProcessLoop.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/_Internal/FRIC_navX_Get_NextState_ProcessLoop.vi"/>
+			<Item Name="Get_Error_Status.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Error_Status.vi"/>
+			<Item Name="Get_Connect_Status.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Connect_Status.vi"/>
+			<Item Name="Get_STREAM_TYPE.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_STREAM_TYPE.vi"/>
+			<Item Name="Get_Notifier_Hault_Notifier.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/Get_Notifier_Hault_Notifier.vi"/>
+			<Item Name="Get_HaultStatus.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_HaultStatus.vi"/>
+			<Item Name="FRIC_navX_Internal_ProcessingLoop_UpdateAE.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_ProcessingLoop_UpdateAE.vi"/>
+			<Item Name="Z900_navX_Flags_HardwareRevTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_HardwareRevTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OmnimountConfigTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_OmnimountConfigTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OpStatusTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_OpStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_CalibrationStatusTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_CalibrationStatusTypeDef.ctl"/>
+			<Item Name="Get_Timestamp.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Timestamp.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_Int32.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int32.vi"/>
+			<Item Name="Get_Status.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Status.vi"/>
+			<Item Name="Z900_navX_Flags_SelfTestStatusTypeDef.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_SelfTestStatusTypeDef.ctl"/>
+			<Item Name="FRIC_navX_Get_RawValues_GyroAccelMag.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/_Raw Values/FRIC_navX_Get_RawValues_GyroAccelMag.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_Int16.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int16.vi"/>
+			<Item Name="Get_BoardInformation.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_BoardInformation.vi"/>
+			<Item Name="Get_MPUTemp.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_MPUTemp.vi"/>
+			<Item Name="Get_Displacement.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Displacement.vi"/>
+			<Item Name="FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_TypeDefs/FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl"/>
+			<Item Name="Get_LinearAcceleration.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_LinearAcceleration.vi"/>
+			<Item Name="Get_Quaternion.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Get_Quaternion.vi"/>
+			<Item Name="Get_YPRHfH.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Get_YPRHfH.vi"/>
+			<Item Name="FRIC_navX_Internal_SPI_GenerateCommand.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_SPI_GenerateCommand.vi"/>
+			<Item Name="navX_SPI_CRC.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SPI/navX_SPI_CRC.vi"/>
+			<Item Name="FRIC_navX_Internal_Serial_ProcessingLoop.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_Serial_ProcessingLoop.vi"/>
+			<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_SignedHundredths.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_SignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_Int16.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_Int16.vi"/>
+			<Item Name="Z900_navX_Util_BigEndian_to_LittleEndian.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Z900_navX_Util_BigEndian_to_LittleEndian.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UInt16.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UInt16.vi"/>
+			<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
+			<Item Name="Z900_navX_SERIAL_ValidatePacketChecksum.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketChecksum.vi"/>
+			<Item Name="Z900_navX_SERIAL_ValidatePacketTermination.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketTermination.vi"/>
+			<Item Name="FRIC_navX_Clear_Buffer_Warning.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Clear_Buffer_Warning.vi"/>
+			<Item Name="FRIC_navX_Internal_Serial_GenerateCommand.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_Serial_GenerateCommand.vi"/>
+			<Item Name="Z900_navX_SERIAL_PacketChecksum.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_PacketChecksum.vi"/>
+			<Item Name="Update Serial Stream.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Set/Update Serial Stream.vi"/>
+			<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
+			<Item Name="Zero Yaw.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/ThirdParty/sensors/navX/Set/Zero Yaw.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
